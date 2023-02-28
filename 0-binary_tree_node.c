@@ -15,11 +15,8 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 
 	/* allocate memory space for that node */
 	newNode = (binary_tree_t *)malloc(sizeof(binary_tree_t));
-
 	if (newNode == NULL)
-	{
 		return (NULL);
-	}
 
 	/* assign values to the properties of the node */
 	newNode->parent = parent;
