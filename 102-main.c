@@ -30,8 +30,8 @@ int main(void)
 	complete = binary_tree_is_complete(root);
 	printf("Is %d complete: %d\n", root->n, complete);
 
-	/*	root->left->left->left = binary_tree_node(root->left->left, 8);
-	 */	binary_tree_print(root);
+	/*root->left->left->left = binary_tree_node(root->left->left, 8);*/
+	binary_tree_print(root);
 	complete = binary_tree_is_complete(root);
 	printf("Is %d complete: %d\n", root->n, complete);
 
