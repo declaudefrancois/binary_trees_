@@ -27,7 +27,7 @@ bst_t *bst_insert(bst_t **tree, int value)
 	while (root)
 	{
 		if (value == root->n)
-			return (root);
+			return (NULL);
 		last = root;
 		if (value < root->n)
 		{
